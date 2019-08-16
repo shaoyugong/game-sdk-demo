@@ -1,0 +1,26 @@
+app: demoApp
+service: Gm
+key: 123456
+
+webServer:
+  default:
+    ip: 127.0.0.1
+    port: 2003
+  local:
+    ip: 127.0.0.1
+    port: 8899
+  dev:
+    ip: 127.0.0.1
+    port: 2001
+
+gameServer:
+  dirver: http
+  default:
+    ip: 127.0.0.1
+    port: 2003
+  local:
+    ip: 127.0.0.1
+    port: 8899
+  dev:
+    ip: 127.0.0.1
+    port: 2001
