@@ -7,7 +7,7 @@
 * symfony/yaml  4.3+
 * guzzlehttp/guzzle  6.0"
 
-## 配置本地配置
+## 配置文件
 
 >`config.yml` 文件, 样例配置`config.example.yml`
 
