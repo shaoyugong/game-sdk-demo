@@ -1,0 +1,22 @@
+{
+    "name": "game/register-sdk",
+    "description": "game register sdk",
+    "authors": [
+        {
+            "name": "龚少瑜",
+            "email": "gongshaoyu@xindong.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "xdapp/service-register": "~1.0.1",
+        "hprose/hprose": "~2.0.9",
+        "symfony/yaml": "~4.3",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Game\\Sdk\\": "src/"
+        }
+    }
+}
