@@ -13,21 +13,27 @@ return new class extends RpcService {
      */
     public function add($id, $data, $accessory)
     {
-        return ['status' => true, 'message' => 'testteststestsetset'];
+        return ['status' => true, 'message' => $id];
     }
 
     /**
-     *
+     * @param $id
+     * @param $data
+     * @param $accessory
+     * @return array
      */
-    public function edit($id)
+    public function edit($id, $data, $accessory)
     {
-        return 'resend mail:' . $id;
+        return ['status' => true, 'message' => $id];
     }
 
     /**
-     *
+     * @param $id
+     * @param $data
+     * @param $accessory
+     * @return array
      */
-    public function delete($id) {
-
+    public function delete($id, $data, $accessory) {
+        return ['status' => true, 'message' => $id];
     }
 };

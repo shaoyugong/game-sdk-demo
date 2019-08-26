@@ -1,7 +1,7 @@
 # hprose(rpc)接口注册demo
 
 ## 服务器环境依赖
-* php 7.0+
+* php 5.3+
 * xdapp/service-register 1.0.1+
 * hprose/hprose  2.0.9+
 * symfony/yaml  4.3+
